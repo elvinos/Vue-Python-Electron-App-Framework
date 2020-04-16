@@ -3,9 +3,9 @@
 block_cipher = None
 
 a = Analysis(['app.py'],
-             pathex=['/Users/alex/Documents/Development/DesktopApps/eel-electron-vue-framework'],
+             pathex=['/Users/alex/Documents/Development/DesktopApps/v-electron'],
              binaries=[],
-             datas=[('/Users/alex/.virtualenvs/vue-app/lib/python3.7/site-packages/eel/eel.js', 'eel'), ('compiled', 'compiled')],
+             datas=[('/Users/alex/.virtualenvs/vue-app/lib/python3.7/site-packages/eel/eel.js', 'eel'), ('src', 'src')],
              hiddenimports=['bottle_websocket'],
              hookspath=[],
              runtime_hooks=[],

@@ -1,0 +1,22 @@
+{
+  "productName": "Vue-Python-Electron",
+  "appId": "org.project.v-electron",
+  "artifactName": "${productName}-setup-${version}.${ext}",
+  "asar": false,
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  },
+  "mac": {
+    "icon": "public/img/android-chrome-maskable-512x512.png",
+    "target": [
+      "dmg"
+    ]
+  },
+  "win": {
+    "icon": "public/img/android-chrome-maskable-512x512.png"
+  },
+  "linux": {
+    "icon": "public/img/android-chrome-maskable-512x512.png"
+  }
+}
